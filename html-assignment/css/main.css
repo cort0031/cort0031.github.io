@@ -1,0 +1,36 @@
+body {
+    font-size: 18px;
+}
+
+header, footer{
+    background-color: darkred;
+}
+
+.site-title {
+    color: white;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: burlywood;
+}
+
+a {
+    background-color: darkseagreen;
+    border: 2px solid rgba(2, 94, 63, 0.699);
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: cornflowerblue;
+}
+
+nav ul:hover {
+    list-style-type: none;
+}
