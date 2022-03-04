@@ -1,0 +1,134 @@
+body {
+    background-color:#aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+}
+
+/* wrapper to make the center*/
+.wrapper {
+    max-width: 1024px;
+    margin: auto;
+    background-color: #d4e9e7;
+}
+.image-banner {
+    background-image: url(../images/lone-starfish-wide.jpg);
+    height: 341px;
+    margin: 0px;
+}
+
+
+/*Navigation bar with 100% so I can divide this later*/
+.topnav {
+    width: 100%;
+    background-color: #d4e9e7;
+    overflow: auto;
+    margin-top: 5px;
+}
+/*I found how to do this in W3 schools, I made the width 33% because the 1px for each border was messing up with my navigation bar*/
+.topnav a {
+    float: left;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    width: 33%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/*Since the middle "story" tab has borders at both sides, I targeted the second child to put borders of 1px, after that I gave the .topnav a margin-top of 5px to separate the borders from the banner*/
+.topnav a:nth-child(2) {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    
+} 
+/*I used the font weight of 100 to make the font lighter*/
+h1 {
+ text-align: center;
+ color: white;
+ padding-top: 200px;
+ margin: 0px;
+ font-size: 3.5rem;
+ font-weight: 100;
+}
+/*I used the weight of 600 to make the font bold, but not too bold*/
+h2 {
+    font-size: 2rem;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+/*I used a lot of margins and padding to try and make it look exactly like the one on the*/
+.float img {
+    width: 250px;
+    float: left;
+    margin: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+.float p {
+    margin: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+p {
+    line-height: 22.5px;
+}
+
+h3 {
+    padding-left: 10px;
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+ul {
+    padding-left: 30px
+}
+/*I used the groove border style, because the solid looked heavier*/
+form {
+    margin: 10px;
+    border-style: groove;
+    padding: 15px;
+}
+
+.contact input {
+    width: 953px;
+    height: 20px;
+    border: none;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+textarea {
+    width: 900px;
+    padding: 30px;
+    border: none;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+button {
+    background-color: #d4e9e7;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: right;
+    margin: 25px;
+    padding-bottom: 15px;
+}
