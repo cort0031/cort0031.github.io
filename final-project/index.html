@@ -77,15 +77,20 @@
 
         <h2>Contact us</h2>
         <h3>Send us a message</h3>
-        <form>
-            <div>
+        <form action="newpage.html" method="get">
+            <div class="contact-label">
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullnane" name="fullname">
             </div>
-            <div>
+            <div class="contact-label">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="contact-label">
                 <label for="message">Message</label>
                 <textarea id="message" name="message"></textarea>
             </div>
+            <div>
             <div>
                 <button type="submit">Send</button>
                </div>
