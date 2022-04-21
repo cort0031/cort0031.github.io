@@ -437,12 +437,30 @@ footer {
     font-size: 0.6rem;
     padding-top: 10px;
 }
+
+/* MEDIA QUERIES STARTS HERE */
+
 @media screen and (min-width:760px) {
     h1 {
         float: left;
     }
     .dark-nav li {
         display: inline-block;
+    }
+
+    .about-us img {
+        width: auto;
+        float: left;
+        height: 300px;
+    }
+    .about-us h3 {
+        font-size: 3.5rem;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .about-us p {
+        font-size: 1rem;
+        padding-bottom: 15px;
     }
 
     /* I ll use a grid to change the services section */
@@ -459,17 +477,50 @@ footer {
 
     .digital {
         grid-area: digital;
+        margin: 5px;
     }
     .marketing {
         grid-area: marketing;
+        margin: 5px;
     } 
     .video {
         grid-area: video;
+        margin: 5px;
     }
     .web {
         grid-area: web;
+        margin: 5px;
     }
     .print {
         grid-area: print;
+        margin: 5px;
+    }
+
+
+    .team-grid {
+        width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(6 1fr);
+        grid-template-rows: repeat(2 1fr);
+        grid-template-areas:
+        "box1a box1a box1a box1b box1b box1b"
+        "box2a box2a box2a box2b box2b box2b"
+    }
+
+    .team-1a {
+        grid-area: box1a;
+        width: auto;
+    }
+    .team-1b {
+        grid-area: box1b;
+        width: auto;
+    }
+    .team-2a {
+        grid-area: box2a;
+        width: auto;
+    }
+    .team-2b {
+        grid-area: box2b;
+        width: auto;
     }
 }
