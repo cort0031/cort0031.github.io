@@ -444,4 +444,32 @@ footer {
     .dark-nav li {
         display: inline-block;
     }
+
+    /* I ll use a grid to change the services section */
+    .services-grid {
+        width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "digital digital digital marketing marketing marketing"
+        "video video web web print print"
+        
+    }
+
+    .digital {
+        grid-area: digital;
+    }
+    .marketing {
+        grid-area: marketing;
+    } 
+    .video {
+        grid-area: video;
+    }
+    .web {
+        grid-area: web;
+    }
+    .print {
+        grid-area: print;
+    }
 }
