@@ -1,3 +1,439 @@
-/* body { 
-    background-color: #369;
-} */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    background-color: #222;
+    margin: 0;
+    padding-top: 0px;
+    /* max-width: 1200px; */
+    margin: auto;
+}
+h1 {
+    background-color: #c78c06;
+    padding-top: 15px;
+    /* max-width: 1200px; */
+    margin: auto;
+    max-width: 1200px;
+}
+.stars img {
+    height: 70px;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.dark-nav {
+    text-decoration: none;
+    color: #c78c06;
+    background-color: #222;
+    text-align: center;
+    margin: auto;
+    /* max-width: 1200px; */
+}
+.light-nav {
+    text-decoration: none;
+    color: #222;
+    background-color: #c78c06;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 0;
+}
+li {
+    padding: 17px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+.searchbar {
+    padding: 10px;
+}
+.searchbar input {
+    margin: auto;
+    padding-top: 15px;
+}
+/*WELCOME PAGE BANNER */
+.content h2 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.content p {
+    font-size: 10px;
+    padding-bottom: 25px;
+}
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+.container img {
+    height: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /*this will keep my image centered*/
+
+}
+.container .content {
+    position: absolute;
+    bottom: 50px;
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    height: 275px;
+    padding: 10px 5px 40px 15px;
+}
+.yellow-button a {
+    background-color: #c78c06;
+    color: #222;
+    border: none;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 15px;
+}
+/* ABOUT US */
+
+.about-us {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+.about-us img {
+    width: 100%;
+}
+.about-us h3 {
+    font-size: 2.25rem;
+    margin: 0;
+    padding-top: 10px;
+}
+.about-us p {
+    font-size: 10px;
+}
+/* OUR SERVICES */
+.our-services {
+    padding: 10px;
+    margin: auto;
+}
+.our-services h3 {
+    font-size: 2.25rem;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.our-services p {
+    font-size: 10px;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.black-button a {
+    background-color: #222;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 25px 30px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+                        /* SERVICE 1 DIGITAL TRANSFORMATION */
+.digital img {
+    width: 100%;
+}
+.digital h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.digital {
+    background-color: #ffe6ac;
+    padding-bottom: 40px;
+}
+                        /* SERVICE 1 DIGITAL TRANSFORMATION END */
+                        /* SERVICE 2 MARKETING */
+.marketing img {
+    width: 100%;
+}
+.marketing h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.marketing {
+    background-color: #ffe6ac;
+    padding-bottom: 40px;
+}
+                        /* SERVICE 2 MARKETING END*/
+                        /* SERVICE 3 VIDEO PRODUCTION */
+.video img {
+    width: 100%;
+}
+.video h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.video {
+    background-color: #ffe6ac;
+    padding-bottom: 40px;
+}
+                        /* SERVICE 3 VIDEO PRODUCTION END */
+                        /* SERVICE 4 WEB DEVELOPMENT */
+.web img {
+    width: 100%;
+}
+.web h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.web {
+    background-color: #ffe6ac;
+    padding-bottom: 40px;
+}
+                        /* SERVICE 4 WEB DEVELOPMENT END*/
+                        /* SERVICE 5 PRINT */
+.print img {
+    width: 100%;
+}
+.print h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.print {
+    background-color: #ffe6ac;
+    padding-bottom: 40px;
+}
+                        /* SERVICE 5 PRINT END */
+/* OUR VISION */
+.content-b h4 {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.content-b p {
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+.container-b {
+    position: relative;
+    margin: auto;
+}
+.container-b .content-b {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 10px;
+}
+.container-b img {
+    width: 100%;
+    display: block;
+    height: 200px;
+}
+.blue-button {
+    margin-bottom: 30px;
+}
+.blue-button a {
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 25px 30px;
+    font-size: 15px;
+}
+/* OUR TEAM */
+.team {
+    padding: 10px;
+    margin: auto;
+}
+.team h3 {
+    font-size: 2.25rem;
+    margin: 0;
+    padding-top: 15px;
+}
+.team p {
+    font-size: 10px;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+                        /* JOHN DOE */
+.team-1a img {
+    width: 100%;
+    margin-bottom: 0;
+}
+.team-1a {
+    margin-bottom: 0;
+}
+.team-1b h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.team-1b h5 {
+    font-size: 0.75rem;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.team-1b hr {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #c78c06;
+}
+.team-1 {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+}
+                        /* JOHN DOE END*/
+                        /* BOB RITE*/
+.team-2a img {
+    width: 100%;
+    margin-bottom: 0;
+}
+.team-2a {
+    margin-bottom: 0;
+}
+.team-2b h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.team-2b h5 {
+    font-size: 0.75rem;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.team-2b hr {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #c78c06;
+}
+.team-2 {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+}
+                        /* BOB RITE END*/
+/* OUR TEAM */
+/* CONTACT */
+.contact h3 {
+    font-size: 2.25rem;
+    margin: 0;
+    padding-top: 45px;
+    padding-left: 10px;
+}
+/* MESSAGE FORM */
+.message h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+form {
+    margin: 10px;
+    font-size: 0.6rem;
+    margin-bottom: 0;
+}
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    padding-bottom: 90px;
+}
+button {
+    background-color: #222;
+    color: #c78c06;
+    font-size: 0.95rem;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 2px 1px;
+    margin-bottom: 0px;
+}
+/* HOURS TABLE  */
+.hours h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+table {
+    width: 97%;
+    font-size: 0.6rem;
+    border-collapse: collapse;
+    margin: 10px;
+}
+thead {
+    text-align: center;
+    background-color: #ffe6ac;
+}
+tbody {
+    text-align: left;
+
+}
+th, tr {
+    margin: 0;
+    border: 1px solid;
+    padding: 10px;
+}
+/*LOCATIONS*/
+.location h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+/* I used this to change the formatting of the map */
+.location iframe {
+    border: 0;
+    height: 325px;
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    color: #c78c06;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    font-size: 0.6rem;
+    padding-top: 10px;
+}
